@@ -4,9 +4,6 @@ body {
     background-color: pink;
 }
 
-.heading {
-    
-}
 
 .topButton {
     font-size: 18px;
@@ -35,7 +32,7 @@ body {
 }
 
 .square {
-    background-color: black;
+    background-color: white;
     
 }
 
