@@ -22,8 +22,11 @@ let drawBoxes = function (userNumber = 64) {
 
     const squareSelect = document.getElementsByClassName('square');
     [...squareSelect].forEach(element => {
+        let colorNum = 0;
         element.addEventListener('mouseover', (e)=>{
-            element.classList.toggle('squareHover');
+            const colorScale = chroma.scale([chroma.random(), 'black']);
+            element.style.setProperty('background-color', colorScale(colorNum + 0.1).toString());
+            colorNum = colorNum + 0.1;
         })
     })
     
