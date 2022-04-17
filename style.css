@@ -10,7 +10,7 @@ body {
 
 .topButton {
     font-size: 18px;
-    width: 400px;
+    width: 100vw;
     text-decoration: none;
     background-color: aqua;
     border: none;
@@ -21,6 +21,7 @@ body {
 .border{
     display: flex;
     flex-direction: column;
+    gap: 5vw;
     justify-content: center;
     align-items: center;
 }
